@@ -1,0 +1,3 @@
+livenessProbe:
+  exec:
+    command: ["python", "healthcheck.py"]
